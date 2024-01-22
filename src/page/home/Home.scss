@@ -1,0 +1,132 @@
+
+tbody{
+
+    tr{
+        td{
+            font-size: 14px;
+            color: #333;
+            font-weight: 500;
+        }
+    }
+}
+
+.ModalBody {
+    form {
+      span{
+          font-size: 13px;
+          font-weight: 600;
+          color: rgb(15, 15, 15);
+      }
+      .half-width {
+        display: flex;
+        margin-bottom: 7px;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+  
+        .label-input {
+          flex: 1;
+          label {
+            font-size: 13px;
+            font-weight: 600;
+            color: rgba(15, 15, 15, 0.743);
+          }
+  
+          input {
+            height: 38px;
+            border: 1px solid rgb(201, 201, 201);
+            border-radius: 4px;
+            width: 100%;
+            padding: 0px 7px;
+  
+            &::placeholder{
+  
+              font-size: 15px;
+              color: gray;
+            }
+  
+          }
+        }
+      }
+  // Threpole width design
+      .threpole-width{
+        display: flex;
+        margin-top: 7px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+  
+          label{
+              border: 1px solid rgb(201, 201, 201);
+              height: 35px;
+              border-radius: 3px;
+              flex: 1;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 0px 10px;
+              font-size: 15px;
+              font-weight: 500;
+              color: rgb(15, 15, 15);
+              input{
+  
+              }
+  
+      }
+  
+  
+      
+      select{
+        border: 1px solid rgb(201, 201, 201);
+        height: 35px;
+        border-radius: 3px;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(15, 15, 15);
+  
+  }
+  
+  
+  
+    }
+  
+    .submitButton_PhotoLink{
+        display: flex;
+        gap: 10px;
+        margin: 10px 0px;
+  
+      input{
+        flex: 2;
+        height: 38px;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 4px;
+        width: 100%;
+        padding: 0px 7px;
+  
+        &::placeholder{
+  
+          font-size: 15px;
+          color: gray;
+        }
+      }
+      button{
+        flex: 1;
+        height: 38px;
+        border: none;
+        border-radius: 2px;
+        width: 100%;
+        padding: 0px 7px;
+        font-size: 15px;
+        color: white;
+        font-weight: 600;
+  
+      }
+    }
+  
+  }
+  }

@@ -1,0 +1,27 @@
+{
+  "students": [
+    {
+      "id": "1245",
+      "name": "Bishsajit Baishnab",
+      "skill": "MernStack Devs",
+      "email": "bishaitbaishnab@gamil.com",
+      "group": "Arts",
+      "DOB": "19/09/2000",
+      "phone": "01754792527",
+      "address": "Sunamgong",
+      "gender": "Male"
+    },
+
+    {
+        "id": "1245",
+        "name": "Bishsajit Baishnab",
+        "skill": "MernStack Devs",
+        "email": "bishaitbaishnab@gamil.com",
+        "group": "Arts",
+        "DOB": "19/09/2000",
+        "phone": "01754792527",
+        "address": "Sunamgong",
+        "gender": "Male"
+      }
+  ]
+}
